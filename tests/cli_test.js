@@ -14,7 +14,7 @@ function print(msg) {
 }
 
 program
-  .version('0.2.0')
+  .version('0.1.0')
   .usage('<device> <instruction> <duration> [options]')
   .option('-d, --debug', 'Debug')
   .option('-s, --sim', "Don't send to serial port, only simulate")
@@ -30,8 +30,8 @@ if (program.debug) {
 }
 // get port name from the command line:
 portName  = process.argv[2];
-code      = process.argv[3];        
-duration  = process.argv[4] * 1000; 
+code      = process.argv[3];
+duration  = process.argv[4] * 1000;
 
 
 print(util.inspect(program.args, {depth: null}));
