@@ -5,6 +5,8 @@
 fetjs is a small library that makes a common pattern that I develop with more convenient.
 
 
+![alt](./example.png)
+
 # Setup
 ```
 npm install
