@@ -1,0 +1,14 @@
+{
+  "name": "fetjs",
+  "version": "0.1.0",
+  "description": "A reusable framework for projects in fetters design pattern",
+  "main": "main.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node tests/cli_test.js test a 1 2"
+  },
+  "author": "fetter",
+  "license": "ISC"
+}
